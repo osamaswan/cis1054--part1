@@ -1,4 +1,4 @@
-<?php
+4)  <?php
 session_start();
 $showDate = date("Y.m.d");
 $_SESSION['storeDate'] = $showDate;
