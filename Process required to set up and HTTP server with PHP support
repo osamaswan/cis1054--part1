@@ -1,3 +1,24 @@
 1)	<?php
-  	  
+  	  // Q) Outline the entire process (and technologies) required to set up an HTTP server with PHP support.
+      //
+      // A) Technologies required:
+      //     - Web Server (example: Apache, IIS)
+      //     - PHP Interpreter
+      //     - XAMPP Control Panel
+      //     - Visual Studio Code
+      //     - Twig
+      //
+      // With the Web Server and PHP Interpreter, we have the capability to generate web content on the server before delivering results (HTML) back to the client. 
+      // Then with the PHP interpreter, an HTTP server is able to serve dynamic pages on the fly.
+      //
+      //    Process required:
+      //     1) The Web Server first fetches the included/required script file.
+      //     2) Includes the contents in the current file.
+      //     3) Then executes the merged script.
+      //     4) Status change is detected.
+      //     5) Attempts to start MySQL app.
+      //     6) Status change is detected.
+      //     7) Attempts to stop MySQL app.
+      //     8) Status change is detected.
+      //     9) Attempts to stop Web Server (example: Apache)
     ?>
