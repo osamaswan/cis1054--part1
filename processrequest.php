@@ -11,7 +11,7 @@
                 <title>Test</title>
           </head>
           <body>
-                <form action="" method="post">
+                <form action="readsession.php" method="POST">
                    <input type="text" name="name" placeholder="Your name" required />
                   <input type="number" name="age" placeholder="Your age" required />
                     <input type="submit" value="Submit" />
